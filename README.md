@@ -8,6 +8,8 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=chasingboy.mapsx&left_color=green&right_color=#66ccff">
 </p>
 
+<img width="1154" alt="image" src="https://github.com/chasingboy/mapsx/blob/main/assets/mapsx.png">
+
 ### 前言
 mapsx 是一款简单的端口扫描｜网段探测｜弱口令爆破工具。平时也经常使用 fscan 和 kscan 等工具，为什么还要花时间搞个 mapsx。一直有个执念，根据自己平时的思路和接触场景，完善一套常用的工具集。毕竟每个工具的作者所接触和使用场景往往是不大一样，所以平时使用过程中总有一些时候不是那么顺手。
 
@@ -53,6 +55,7 @@ root$ mapsx -i 192.168.1.1 -p 21,22,80-88
 ```
 root$ mapsx -i 192.168.1.1 -o result.txt
 ```
+<img width="1154" alt="image" src="https://github.com/chasingboy/mapsx/blob/main/assets/portscan.png">
 
 ### 网段探测
 🏷️ 默认探测 172｜192｜10
@@ -68,6 +71,17 @@ root$ mapsx --netscan --range 192.168.1.1/16
 <img width="1154" alt="image" src="https://github.com/chasingboy/mapsx/blob/main/assets/netscan.png">
 
 ### 弱口令爆破
+✅ ftp<br>
+✅ ssh<br>
+✅ rdp<br>
+✅ telnet<br>
+✅ mysql<br>
+✅ mssql<br>
+✅ redis<br>
+✅ oracle<br>
+✅ mongodb<br>
+✅ postgres<br>
+
 🏷️ 爆破 ssh
 ```
 root$ mapsx --cracker -i 192.168.1.1:22
@@ -96,3 +110,19 @@ root$ mapsx --cracker -i 192.168.1.1:22 --ufile username.txt --pfile password.tx
 ```
 
 <img width="1154" alt="image" src="https://github.com/chasingboy/mapsx/blob/main/assets/cracker.png">
+
+### 公众号
+该公众号用于编写 Xtools 系列工具使用文档和工具更新通知
+
+<p align="center"><img width="300" alt="image" src="https://github.com/chasingboy/appsx/blob/main/assets/xsec.png"></p>
+
+### 免责声明
+请在使用本工具时遵循使用者以及目标系统所在国当地的相关法律法规，一切未授权测试均是不被允许的。对于因使用工具而引发的任何直接、间接、偶然、特殊性的损害均由**使用者承担责任**。
+
+### 特别感谢
+kscan@https://github.com/lcvvvv/kscan
+
+fscan@https://github.com/shadow1ng/fscan
+
+### 更新记录
+[+] 2025-1-11【发布】mapsx V1.0.0
