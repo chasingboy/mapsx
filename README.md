@@ -71,16 +71,16 @@ root$ mapsx --netscan --range 192.168.1.1/16
 <img width="1154" alt="image" src="https://github.com/chasingboy/mapsx/blob/main/assets/netscan.png">
 
 ### 弱口令爆破
-✅ ftp<br>
-✅ ssh<br>
-✅ rdp<br>
-✅ telnet<br>
-✅ mysql<br>
-✅ mssql<br>
-✅ redis<br>
-✅ oracle<br>
-✅ mongodb<br>
-✅ postgres<br>
+✅ ftp
+✅ ssh
+✅ rdp
+✅ telnet
+✅ mysql
+✅ mssql
+✅ redis
+✅ oracle
+✅ mongodb
+✅ postgres
 
 🏷️ 爆破 ssh
 ```
